@@ -17,7 +17,7 @@
       }
     },
     "channels": {
-      "mychannel": {
+      "composerchanel": {
         "orderers": ["orderer0.example.com","orderer1.example.com","orderer2.example.com"],
         "peers": {
           "peer0.org1.example.com": {},
@@ -35,13 +35,13 @@
     },
     "orderers": {
       "orderer0.example.com": {
-        "url": "grpc://64.91.248.208:7050"
+        "url": "grpc://64.91.248.208"
       },
       "orderer1.example.com": {
-        "url": "grpc://104.248.233.240:7050"
+        "url": "grpc://104.248.233.240"
       },
       "orderer2.example.com": {
-        "url": "grpc://157.230.170.215:7050"
+        "url": "grpc://157.230.170.215"
       }
     },
     "peers": {
